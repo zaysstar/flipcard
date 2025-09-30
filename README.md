@@ -2,32 +2,34 @@
 ## 🚀 Overview
 This project is a web-based flashcard application built with React and Vite. The application allows a user to study a set of trivia cards in a non-repeating, randomized order. It features a responsive 3D card-flip animation, navigation controls, and an input field for checking answers.
 
-## ✨ Features Implemented
+# ✨ Features Implemented
 The table below confirms all required features for Project 2 (Part 1 has been implemented; Part 2 will be coming soon.)
 
-### Part 1: Core Functionality
-Feature	Implemented
-Title of card set is displayed	[x]
-A short description of the card set is displayed	[x]
-A list of card pairs is created (CARD_DATA in App.jsx)	[x]
-The total number of cards in the set is displayed	[x]
-A single card at a time is displayed	[x]
-Only one half of the information pair is displayed at a time	[x]
-Clicking on the card flips it over, showing the back	[x]
-Clicking on a flipped card again flips it back, showing the front	[x]
-Clicking on the Next button displays a new card	[x]
-Cards are shown in a non-repeating sequence	[x]
-The app detects when the last card is reached	[x]
-The app displays a "Study Complete" message at the end	[x]
-Navigation includes a "Previous Card" button	[x]
-Users can enter an answer in a dedicated input field	[x]
-App provides feedback (Correct/Incorrect) after submission	[x]
-Answer checking uses basic matching (case/whitespace insensitive)	[x]
+## Part 1: Core Functionality
+### Feature	Implemented
+
+- Title of card set is displayed	[x]
+- A short description of the card set is displayed	[x]
+- A list of card pairs is created (CARD_DATA in App.jsx)	[x]
+- The total number of cards in the set is displayed	[x]- 
+- A single card at a time is displayed	[x]
+- Only one half of the information pair is displayed at a time	[x]
+- Clicking on the card flips it over, showing the back	[x]
+- Clicking on a flipped card again flips it back, showing the front	[x]
+- Clicking on the Next button displays a new card	[x]
+- Cards are shown in a non-repeating sequence	[x]
+- The app detects when the last card is reached	[x]
+- The app displays a "Study Complete" message at the end	[x]
+- Navigation includes a "Previous Card" button	[x]
+- Users can enter an answer in a dedicated input field	[x]
+- App provides feedback (Correct/Incorrect) after submission	[x]
+- Answer checking uses basic matching (case/whitespace insensitive)	[x]
 
 ## 🖼️ Walkthrough
 This GIF demonstrates the application's key functionality, including the 3D flip, navigation, and answer checking.
 
-\
+<img width="600" height="540" alt="image" src="https://github.com/user-attachments/assets/0970de88-9cf3-47f3-9863-966729b509f0" />
+
 
 ## 🛠️ Technology Stack
 Framework: React (using functional components and Hooks)
