@@ -3,7 +3,7 @@
 This project is a web-based flashcard application built with React and Vite. The application allows a user to study a set of trivia cards in a non-repeating, randomized order. It features a responsive 3D card-flip animation, navigation controls, and an input field for checking answers.
 
 # ✨ Features Implemented
-The table below confirms all required features for Project 2 (Part 1 has been implemented; Part 2 will be coming soon.)
+The table below confirms all required features for Project 2 (Part 1 and Part 2 has been implemented.)
 
 ## Part 1: Core Functionality and Display
 ### Features
@@ -51,7 +51,8 @@ This section highlights the additional features implemented for a complete, game
 ## 🖼️ Walkthrough
 This GIF demonstrates the application's key functionality, including the 3D flip, navigation, and answer checking.
 
-<img width="600" height="540" alt="image" src="file:///C:/Users/Izayah%20Rahming/Downloads/a8dnp5.gif" />
+<img width="600" height="540" alt="image" src="![a8dnp5](https://github.com/user-attachments/assets/037d73c8-880d-4074-8645-49c76cb0d417)
+" />
 
 
 ## 🛠️ Technology Stack
