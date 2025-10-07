@@ -5,30 +5,53 @@ This project is a web-based flashcard application built with React and Vite. The
 # ✨ Features Implemented
 The table below confirms all required features for Project 2 (Part 1 has been implemented; Part 2 will be coming soon.)
 
-## Part 1: Core Functionality
-### Feature	Implemented
+## Part 1: Core Functionality and Display
+### Features
 
-- Title of card set is displayed	[x]
-- A short description of the card set is displayed	[x]
-- A list of card pairs is created (CARD_DATA in App.jsx)	[x]
-- The total number of cards in the set is displayed	[x]- 
-- A single card at a time is displayed	[x]
-- Only one half of the information pair is displayed at a time	[x]
-- Clicking on the card flips it over, showing the back	[x]
-- Clicking on a flipped card again flips it back, showing the front	[x]
-- Clicking on the Next button displays a new card	[x]
-- Cards are shown in a non-repeating sequence	[x]
-- The app detects when the last card is reached	[x]
-- The app displays a "Study Complete" message at the end	[x]
-- Navigation includes a "Previous Card" button	[x]
-- Users can enter an answer in a dedicated input field	[x]
-- App provides feedback (Correct/Incorrect) after submission	[x]
-- Answer checking uses basic matching (case/whitespace insensitive)	[x]
+Title, description, and total card count displayed [x]
+
+Single card displayed at a time (non-repeating sequence) [x]
+
+Only one half of the information pair is displayed initially [x]
+
+3D Card Flip: Clicking the card flips it to reveal the answer [x]
+
+Next button displays a new card [x]
+
+Previous button returns to the last card viewed [x]
+
+App detects and displays "Study Complete" message at the end [x]
+
+
+## Part 2: Interaction, Validation, and Navigation
+### Features
+
+Dedicated user input field and submit button [x]
+
+Navigation Constraints: Back/Next buttons disabled at start/end of deck [x]
+
+App provides clear visual feedback (Correct/Incorrect) after submission [x]
+
+Fuzzy Matching: Answer checking handles case, punctuation, and multiple accepted correct answers [x]
+
+Visual Countdown Timer: After a correct guess, a 5-second visual countdown is displayed before auto-advancing [x]
+
+## 🌟 Advanced Features (Stretch Goals)
+This section highlights the additional features implemented for a complete, game-like user experience:
+
+🏆 Streak Counter: Tracks the user's Current Streak of correct answers and updates the Longest Streak high score.
+
+🔀 Shuffle Functionality: A dedicated button allows the user to randomize the card order at any time, restarting the session.
+
+🖼️ Image Support: Cards are configured to display a relevant image on the question side (if provided in CARD_DATA).
+
+🎨 Theming: The application utilizes a "General Food Knowledge" theme [replacing the "General Knowledge" questions, complete with a static background image and a custom color scheme.
+
 
 ## 🖼️ Walkthrough
 This GIF demonstrates the application's key functionality, including the 3D flip, navigation, and answer checking.
 
-<img width="600" height="540" alt="image" src="https://github.com/user-attachments/assets/0970de88-9cf3-47f3-9863-966729b509f0" />
+<img width="600" height="540" alt="image" src="file:///C:/Users/Izayah%20Rahming/Downloads/a8dnp5.gif" />
 
 
 ## 🛠️ Technology Stack
